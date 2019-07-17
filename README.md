@@ -2,6 +2,9 @@
 #### https://github.com/phoenixtree2poplar/my-git/blob/master/git-workflow-tutorial.md  #git工作流
 
 ```bash
+git fetch --all   #强制拉取
+git reset --hard origin/master  #强制覆盖本地
+
 PURGE RECYCLEBIN  #清除回收BIN，gaussdb数据库命令
 
 Alt + Insert  #set/get; 构造方法;  toString; 重写方法。。。
