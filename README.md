@@ -27,11 +27,11 @@ Ctrl+Alt+O  #优化导入的类和包
 echo "开始更新..  执行 git pull"
 cd %~dp0
 set currentFolder=%~dp0
-for /D %%s in (Folder*) do ( 
-echo %%s
-cd %%s
+for /D %%i in (Folder*) do ( 
+echo %%i
+cd %%i
 git pull
-cd ..%
+cd ..
 )
 pause
 ```
