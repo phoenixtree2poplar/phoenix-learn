@@ -20,3 +20,18 @@ Ctrl+Shift+F  #在路径中查找
 Ctrl+Shift+R  #在路径中替换
 Ctrl+Alt+O  #优化导入的类和包
 ```
+
+#### bat命令遍历当前目录并执行指定操作
+```bash
+@echo off
+echo "开始更新..  执行 git pull"
+cd %~dp0
+set currentFolder=%~dp0
+for /D %%s in (Folder*) do ( 
+echo %%s
+cd %%s
+git pull
+cd ..%
+)
+pause
+```
