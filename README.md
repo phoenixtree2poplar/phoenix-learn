@@ -4,6 +4,7 @@
 ```bash
 git fetch --all   #强制拉取
 git reset --hard origin/master  #强制覆盖本地
+git rm -r --cached .gitignore  #刷新文件缓存
 
 PURGE RECYCLEBIN  #清除回收BIN，gaussdb数据库命令
 
