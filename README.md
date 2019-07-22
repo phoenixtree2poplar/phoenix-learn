@@ -2,6 +2,8 @@
 #### https://github.com/phoenixtree2poplar/my-git/blob/master/git-workflow-tutorial.md  #git工作流
 
 ```bash
+call mvn -f pom.xml dependency:copy-dependencies  #根据pom.xml拉取仓库
+
 git fetch --all   #强制拉取
 git reset --hard origin/master  #强制覆盖本地
 git rm -r --cached .gitignore  #刷新文件缓存
