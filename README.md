@@ -27,6 +27,8 @@ Ctrl+Shift+F  #在路径中查找
 Ctrl+Shift+R  #在路径中替换
 Ctrl+Alt+O  #优化导入的类和包
 ```
+#### idea修改配置
+Font(字体) Mononspaced；Size 18；Line Spacing 0.8；
 #### bat
 ```bash
 @echo off
