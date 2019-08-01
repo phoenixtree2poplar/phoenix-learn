@@ -42,8 +42,13 @@ git pull
 cd ..
 )
 pause
+
+if "i"=="i" 
+(
 xcopy /y *.jar %currentFolder%jar  #bat拷贝命令参数/y是覆盖
 rd /q/s package  #删除目录package /q不询问，静默模式 /s目录树迭代删除
 md package  #创建目录package
 jar xf dev.jar  #静默解压dev.jar到当前目录
+pause  #暂停
+)
 ```
