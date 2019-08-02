@@ -44,7 +44,7 @@ for /D %%i in (Folder*) do (
 )
 pause
 
-if "i"=="i" (
+if 1==1 (
   xcopy /y *.jar %currentFolder%jar  #bat拷贝命令参数/y是覆盖
   rd /q/s package  #删除目录package /q不询问，静默模式 /s目录树迭代删除
   md package  #创建目录package
