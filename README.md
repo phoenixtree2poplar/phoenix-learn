@@ -39,6 +39,7 @@ for /D %%i in (Folder*) do (
 echo %%i
 cd %%i
 git pull
+rem git branch  字段rem是用来注释的
 cd ..
 )
 pause
