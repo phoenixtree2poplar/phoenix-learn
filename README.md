@@ -30,25 +30,25 @@ Ctrl+Alt+O  #优化导入的类和包
 #### idea修改配置
 Font(字体) Mononspaced；Size 18；Line Spacing 0.8；
 #### bat
-```bash
+```bat
 @echo off
 echo "开始更新..  执行 git pull"
 cd %~dp0
 set currentFolder=%~dp0
 for /D %%i in (Folder*) do ( 
-echo %%i
-cd %%i
-git pull
-rem git branch  字段rem是用来注释的
-cd ..
+  echo %%i
+  cd %%i
+  git pull
+  rem git branch  字段rem是用来注释的
+  cd ..
 )
 pause
 
 if "i"=="i" (
-xcopy /y *.jar %currentFolder%jar  #bat拷贝命令参数/y是覆盖
-rd /q/s package  #删除目录package /q不询问，静默模式 /s目录树迭代删除
-md package  #创建目录package
-jar xf dev.jar  #静默解压dev.jar到当前目录
-pause  #暂停
+  xcopy /y *.jar %currentFolder%jar  #bat拷贝命令参数/y是覆盖
+  rd /q/s package  #删除目录package /q不询问，静默模式 /s目录树迭代删除
+  md package  #创建目录package
+  jar xf dev.jar  #静默解压dev.jar到当前目录
+  pause  #暂停
 )
 ```
