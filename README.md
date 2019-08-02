@@ -30,7 +30,7 @@ Ctrl+Alt+O  #优化导入的类和包
 #### idea修改配置
 Font(字体) Mononspaced；Size 18；Line Spacing 0.8；
 #### bat
-```dos
+```bat
 @echo off
 echo "开始更新..  执行 git pull"
 cd %~dp0
