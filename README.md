@@ -1,7 +1,7 @@
 #### https://blog.csdn.net/c5113620/article/category/7328319/1?  #java核心类学习
 #### https://github.com/phoenixtree2poplar/my-git/blob/master/git-workflow-tutorial.md  #git工作流
 #### git
-```git
+```bash
 git fetch --all   #强制拉取
 git reset --hard origin/master  #强制覆盖本地
 git checkout -b dev  #从当前分支创建并切换分支到dev
