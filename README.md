@@ -8,11 +8,10 @@ git reset --hard origin/master  #强制覆盖本地
 git checkout -b dev  #从当前分支创建并切换分支到dev
 git push --set-upstream origin dev  #当前分支推送远程分支dev
 git push origin :dev  #推送空分支到远程即删除远程分支，需当前不在该分支
-git rm -r --cached .gitignore  #刷新文件缓存
+git rm -r --cached .  #刷新文件缓存
 ```
 #### gitignore
 ```bash
-.gitignore
 target/
 .idea/
 logs/
