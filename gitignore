@@ -1,8 +1,0 @@
-.gitignore
-
-.classpath
-*.class
-
-.idea/
-logs/
-target/
