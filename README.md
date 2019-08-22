@@ -1,3 +1,4 @@
+## 热加载，背景图片，lombok，jetty
 #### https://blog.csdn.net/c5113620/article/category/7328319/1?  #java核心类学习
 #### https://blog.csdn.net/HeatDeath/article/details/80156993  #idea插件
 #### https://blog.csdn.net/win7system/article/details/83508313  #idea插件
