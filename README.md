@@ -14,3 +14,6 @@ java -Xdebug -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=20001
 
 ## Git
 #### https://github.com/pcottle/learnGitBranching  #交互式Git学习
+
+##### Beyond Compare  
+##### wox
